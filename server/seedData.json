@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "name": "Selma Amadhila",
+      "email": "selma@gmail.com",
+      "phone": "0816318658",
+      "password": "password123",
+      "address": "Windhoek, Namibia",
+      "role": "customer"
+    },
+    {
+      "name": "Kendjik Tjiposa",
+      "email": "kendjik@gmail.com",
+      "phone": "0812345678",
+      "password": "password123",
+      "address": "Opuwo, Namibia",
+      "role": "customer"
+    },
+    {
+      "name": "Elly Admin",
+      "email": "admin@pearlsbyelly.com",
+      "phone": "+264816318658",
+      "password": "admin",
+      "address": "Opuwo, Namibia",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Custom Name Keyholder / Keychain",
+      "category": "CUSTOM NAME",
+      "price": 50.0,
+      "tag": "BESTSELLER",
+      "rating": 5.0,
+      "reviewCount": 64,
+      "imageUrl": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=600",
+      "description": "Handcrafted custom keyrings featuring high-contrast black and white letter beads spelling personalized names (e.g. KENDJIK, SELMA).",
+      "details": ["High-contrast letter block beads", "Durable metal keyring & braided cord", "Customizable with any name or word"]
+    },
+    {
+      "id": "2",
+      "name": "Yin-Yang Pearl & Onyx Necklace",
+      "category": "BODY JEWELRY",
+      "price": 60.0,
+      "tag": "POPULAR",
+      "rating": 4.9,
+      "reviewCount": 42,
+      "imageUrl": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600",
+      "description": "A striking statement necklace featuring half white freshwater pearls and half dark grey/black round beads, centered with a silver Yin-Yang pendant.",
+      "details": ["Half high-sheen white pearls & half dark onyx", "Centered silver-plated Yin-Yang pendant", "Secure lobster clasp enclosure"]
+    },
+    {
+      "id": "3",
+      "name": "Vibrant Multi-Strand Waistbeads",
+      "category": "BODY JEWELRY",
+      "price": 80.0,
+      "tag": "HANDMADE",
+      "rating": 5.0,
+      "reviewCount": 58,
+      "imageUrl": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600",
+      "description": "A colorful, multi-strand beaded waist chain tailored to bestow a playful bohemian silhouette.",
+      "details": ["Multi-strand vibrant glass beads", "Tailored to your exact waist length", "Durable water-resistant threading"]
+    },
+    {
+      "id": "4",
+      "name": "Coral Geometric Dangle Earrings",
+      "category": "ACCESSORIES",
+      "price": 25.0,
+      "tag": "BOHO CHIC",
+      "rating": 4.8,
+      "reviewCount": 31,
+      "imageUrl": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600",
+      "description": "Bohemian coral and peach-colored geometric diamond-shaped dangle earrings crafted with intricate seed beads.",
+      "details": ["Handcrafted diamond geometric beadwork", "Lightweight comfortable ear hooks", "Hypoallergenic gold-tone hardware"]
+    },
+    {
+      "id": "5",
+      "name": "Signature Handcrafted Pearl Tie",
+      "category": "SPECIALTY",
+      "price": 200.0,
+      "tag": "EXCLUSIVE",
+      "rating": 5.0,
+      "reviewCount": 19,
+      "imageUrl": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600",
+      "description": "An exclusive luxury statement piece. Hand-threaded freshwater pearls assembled into an avant-garde beaded necktie.",
+      "details": ["AAA Grade authentic sheen pearls", "Hand-threaded luxury silk foundation", "Statement fashion accessory"]
+    },
+    {
+      "id": "6",
+      "name": "Meticulous Prayer Rosary",
+      "category": "SPECIALTY",
+      "price": 100.0,
+      "tag": "SENTIMENTAL",
+      "rating": 5.0,
+      "reviewCount": 37,
+      "imageUrl": "https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?w=600",
+      "description": "A deeply meaningful, meticulously hand-beaded prayer rosary designed with pristine beads and a solid cross centerpiece.",
+      "details": ["Meticulously threaded prayer beads", "Pristine cross centerpiece pendant", "Ultra-durable silk cord threading"]
+    }
+  ],
+  "orders": [
+    {
+      "orderCode": "PBE-1024",
+      "userId": "selma@gmail.com",
+      "customerName": "Selma Amadhila",
+      "customerEmail": "selma@gmail.com",
+      "customerPhone": "0816318658",
+      "items": [
+        { "id": "1", "name": "Custom Name Keyholder", "quantity": 2, "price": 50.0 },
+        { "id": "2", "name": "Yin-Yang Pearl & Onyx Necklace", "quantity": 1, "price": 60.0 }
+      ],
+      "customText": "SELMA",
+      "courierMethod": "Nationwide Courier (Namibia)",
+      "totalAmount": 220.0,
+      "status": "Threading Beads in Opuwo"
+    },
+    {
+      "orderCode": "PBE-1025",
+      "userId": "kendjik@gmail.com",
+      "customerName": "Kendjik Tjiposa",
+      "customerEmail": "kendjik@gmail.com",
+      "customerPhone": "0812345678",
+      "items": [
+        { "id": "5", "name": "Signature Handcrafted Pearl Tie", "quantity": 1, "price": 200.0 }
+      ],
+      "customText": "KENDJIK",
+      "courierMethod": "Opuwo Pickup (FREE)",
+      "totalAmount": 200.0,
+      "status": "Dispatched via Courier"
+    }
+  ],
+  "settings": {
+    "announcementText": "📍 BASED IN OPUWO • POP-UP MARKETS 1ST SEP - 21ST OCT • WE COURIER NATIONWIDE ✨",
+    "shippingFee": 60.0,
+    "promoCodes": {
+      "ELLY10": 0.10,
+      "OPUWO10": 0.10
+    },
+    "whatsappNumber": "+264816318658"
+  }
+}
